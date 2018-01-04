@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"084a2f8" = {path = "../weewx-orm/", editable = true}
+"608c32e" = {path = "../dts-client/", editable = true}
+"216891e" = {path = "../dts-server", editable = true}
+Werkzeug = "*"
+click = "*"
+
+
+[dev-packages]
+
+pudb = "*"
