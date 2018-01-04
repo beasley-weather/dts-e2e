@@ -7,9 +7,9 @@ name = "pypi"
 
 [packages]
 
-"084a2f8" = {path = "../weewx-orm/", editable = true}
-"608c32e" = {path = "../dts-client/", editable = true}
-"216891e" = {path = "../dts-server", editable = true}
+weewx-orm = {git = "https://github.com/beasley-weather/weewx-orm.git"}
+dts-client = {git = "https://github.com/beasley-weather/dts-client.git"}
+dts-server = {git = "https://github.com/beasley-weather/dts-server.git"}
 Werkzeug = "*"
 click = "*"
 
